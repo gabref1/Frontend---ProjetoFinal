@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js "></script>
+</head>
+<body>
+    <div id="topo"></div>
+    <div id="conteudo">
+        <div id="barra_lateral">
+            <button class="btn" id="home">Home</button>
+            <button class="btn" id="gestaoPessoas">Gestão de pessoas</button>
+            <button class="btn" id="gestaoFuncoes">Gestão de funções</button>
+            <button class="btn" id="cadastrarColab">Cadastrar colaborador</button>
+            <button class="btn" id="cadastrarFunc">Cadastrar função</button>
+        </div>
+
+        <div id="funcoesWeb"></div>
+        
+        <script>
+            $(document).ready(function(){
+                $("#home").click(function(){
+                    alert("Home clicado")
+                });
+            });
+            $(document).ready(function(){
+                $("#gestaoPessoas").click(function(){
+                    alert("Gestão de pessoas clicado")
+                });
+            });
+
+            $(document).ready(function(){
+                $("#gestaoFuncoes").click(function(){
+                    alert("Gestão de funções clicado")
+                });
+            });
+
+            $(document).ready(function(){
+                $("#cadastrarColab").click(function(){
+                    alert("Cadastrar colaboradores clicado")
+                });
+            });
+
+            $(document).ready(function(){
+                $("#cadastrarFunc").click(function(){
+                    alert("Cadastrar funções clicado")
+                });
+
+            });
+
+            
+        </script>
+    </div>
+
+
+    <div id="conteudoHome"></div>
+    <div id="conteudoGestaopessoas"></div>
+    <div id="conteudoGestaofuncoes"></div>
+    <div id="cadastrarColab"></div>
+    <div id="cadastrar"></div>
+    
+</body>
+</html>
